@@ -7,12 +7,19 @@
 // console.log(variasCosas[2])
 // console.log(otroArreglo)
 
-let numeros = [1,2,3,4,5,6,7,8,9,10]
-for (let index = 0; index < numeros.length; index++){
+// let numeros = [1,2,3,4,5,6,7,8,9,10]
+// for (let index = 0; index < numeros.length; index++){
     
-    if (numeros[index] %2 == 0)
-        console.log(numeros[index]*4)
+//     if (numeros[index] %2 == 0)
+//         console.log(numeros[index]*4)
 
+// }
+
+let nombres = []
+for (let index = 0; index < 5 ; index ++ ){
+    nombres[index] = prompt('Ingrese su nombre: ')
 }
-
+for (let index = 0; index < nombres.length; index++){
+    console.log(nombres[index])
+}
 
